@@ -545,7 +545,7 @@ $(document).ready(function () {
     $(this).closest(".message").transition("fade");
   });
 
-  
+  loadMessages();
 
   require([
     "vs/editor/editor.main",
